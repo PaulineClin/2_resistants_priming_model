@@ -9,13 +9,8 @@ Prevalence of the disease according to the number of host genotypes in the mixtu
 # Importation des différents packages : 
 import streamlit as st
 import numpy as np 
-import numpy.polynomial.polynomial as nppol
 import matplotlib.pyplot as plt
-import math
 import pandas as pd
-
-from matplotlib.ticker import MaxNLocator
-
 
 plt.rc('axes', labelsize=16) 
 
