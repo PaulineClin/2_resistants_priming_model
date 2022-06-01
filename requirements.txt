@@ -1,6 +1,5 @@
 streamlit 
 numpy
-math
 pandas
 matplotlib
 
