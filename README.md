@@ -1,2 +1,2 @@
 # 2 resistants priming model
-Application to simulate figures of the Supplementary material "Optimal ratio of disease-resistant plants" study
+Application to simulate figures of the "Optimal ratio of disease-resistant plants" supplementary material.
