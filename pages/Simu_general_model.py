@@ -31,7 +31,7 @@ def app():
     R1 = R*(1-c1)
     R2 = R*(1-c2)
     R3 = R*(1-c1)*(1-c2)
-    p = np.linspace(0,1,500)
+    p = np.linspace(0,1,300)
     
     # Equilibre singly 1 : 
     y1 = -(R1*p - R1 + 1)/R1

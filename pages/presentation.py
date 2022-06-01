@@ -3,7 +3,7 @@ import streamlit as st
 def app():
     st.markdown("<h1 style='text-align: center;'> The optimal ratio of disease-resistant plants in host mixtures is imbalanced and counter-intuitively biased </h1>", unsafe_allow_html=True)
   
-    st.markdown("<h3 style='text-align: center;'> Clin Pauline, Grognard Frédéric, Andrivon Didier, Mailleret Ludovic, Hamelin Frédéric</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'> Pauline Clin, Frédéric Grognard, Didier Andrivon, Ludovic Mailleret, Frédéric Hamelin </h3>", unsafe_allow_html=True)
    
     st.markdown("This application is linked to our study submitted for publication to the journal Biology Letters.")
     st.markdown("This application allows to produce the different figures presented in the companion article for parameter values that can be chosen by the user.")

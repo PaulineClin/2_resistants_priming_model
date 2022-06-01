@@ -24,7 +24,7 @@ def app():
     R = st.slider('Transmission rate (R):', min_value=1, max_value=100, value = 7)
     c1 = st.slider('Virulence cost 1 (c1):', min_value=0.0, max_value=1.0, value = 0.1 )
     c2 = st.slider('Virulence cost 2 (c2):', min_value=0.0, max_value=1.0, value = 0.4 )
-    p = np.linspace(0,1,100)
+    p = np.linspace(0,1,300)
 
     # Equilibre singly 1 : 
     y1 = -(R*c1*p - R*c1 - R*p + R - 1)/(R*(c1 - 1))

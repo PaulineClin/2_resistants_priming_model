@@ -26,7 +26,7 @@ def app():
     c1 = st.slider('Virulence cost 1 (c1):', min_value=0.0, max_value=1.0, value = 0.1 )
     c2 = st.slider('Virulence cost 2 (c2):', min_value=0.0, max_value=1.0, value = 0.4 )
     nu = st.slider('Lose of priming (nu):', min_value=1.0000, max_value=10.0000 , value = 1.0001)
-    p = np.linspace(0,1,100)
+    p = np.linspace(0,1,300)
     
     # Equilibre singly 1 : 
     y1 = -(R*c1*p - R*c1 - R*p + R - 1)/(R*(-1 + c1))
