@@ -191,8 +191,8 @@ def app():
 
     ax1.set_ylim(0, 1)
     ax1.set_xlim(0,1)
-    ax1.set_xlabel('Proportion of resistant 2 (p)')
-    ax1.set_ylabel('Disease prevalence (P)')
+    ax1.set_xlabel(r'Proportion of resistant 2 ($p$)')
+    ax1.set_ylabel(r'Disease prevalence ($P$)')
     
     # Show the pyplot figure in the app : 
     st.pyplot(fig1)
@@ -200,4 +200,4 @@ def app():
     st.caption(r""" Total equilibrium prevalence of the disease $\mathcal{P}$ as a function of the proportion of resistant 2 in the mixture ($p$).
                Color lines show the stable part of each equilibrium. Red lines correspond to singly 1 and sngly 2 equilibra. Yellow lines correspond to the two singly and doubly equilibria.
                Green line corresponds to the doubly equilibrium. Blue line corresponds to singly 1 and singly 2 equilbirum. The grey lines correspond to the unstable part of each equilibrium.
-               For singly and doubly, and doubly equilibria, the unstable part are not shown.""")
+               For singly and doubly, and doubly equilibria, the unstable part are not shown for clarity.""")
