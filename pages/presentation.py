@@ -12,8 +12,6 @@ def app():
     st.write(r"""
     * **Prevalence of the disease without priming:** 
       * Priming efficiency is null ($\rho=0$).  
-    * **Prevalence of the disease with full efficient priming:**
-      * Priming efficiency is full ($\rho=1$).
     * **Prevalence of the disease :**
       * Priming efficiency varies ($0<\rho<1$).
    """)
