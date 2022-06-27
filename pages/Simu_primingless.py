@@ -198,6 +198,6 @@ def app():
     st.pyplot(fig1)
     
     st.caption(r""" Total equilibrium prevalence of the disease $\mathcal{P}$ as a function of the proportion of resistant 2 in the mixture ($p$).
-               Color lines show the stable part of each equilibrium. Red lines correspond to singly 1 and sngly 2 equilibra. Yellow lines correspond to the two singly and doubly equilibria.
-               Green line corresponds to the doubly equilibrium. Blue line corresponds to singly 1 and singly 2 equilbirum. The grey lines correspond to the unstable part of each equilibrium.
-               For singly and doubly, and doubly equilibria, the unstable part are not shown for clarity.""")
+               Color lines show the stable part of each equilibrium. Red lines correspond to "monovirulent 1" and "monovirulent 2" equilibra. Yellow lines correspond to the two "monovirulent and doubly virulent" equilibria.
+               Green line corresponds to the "doubly virulent" equilibrium. Blue line corresponds to "monovirulent 1 and monovirulent 2" equilbirum. The grey lines correspond to the unstable part of each equilibrium.
+               For "monovirulent and doubly virulent", and "doubly virulent" equilibria, the unstable part are not shown for clarity.""")
