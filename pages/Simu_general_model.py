@@ -24,10 +24,10 @@ def app():
         
     # Paramètre : 
     R = st.slider('Transmission rate (R):', min_value=1, max_value=100, value = 7)
-    c1 = st.slider('Virulence cost 1 (c1):', min_value=0.0, max_value=1.0, value = 0.1 )
-    c2 = st.slider('Virulence cost 2 (c2):', min_value=0.0, max_value=1.0, value = 0.4 )
+    c1 = st.slider('Virulence cost 1 (c1):', min_value=0.01, max_value=0.99, value = 0.10 )
+    c2 = st.slider('Virulence cost 2 (c2):', min_value=0.01, max_value=0.99, value = 0.40 )
     rho = st.slider('Priming efficiency (rho):', min_value=0.0001, max_value=0.9999, value = 0.5)
-    nu = st.slider('Lose of priming (nu):', min_value=1.0000, max_value=10.0000 , value = 1.0001)
+    nu = st.slider('Lose of priming (nu):', min_value=1.01, max_value=10.00 , value = 1.01)
     R1 = R*(1-c1)
     R2 = R*(1-c2)
     R3 = R*(1-c1)*(1-c2)
